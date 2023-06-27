@@ -30,7 +30,7 @@ export const helloWorld = functions.https.onRequest(
   });
 
 const httpsOptions: HttpsOptions = {
-  memory: "1GiB",
+  memory: "4GiB",
 };
 
 export const searchIntros = functions.https.onRequest(httpsOptions,
