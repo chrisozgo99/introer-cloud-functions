@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "CommonJS",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "lib",
@@ -12,6 +12,6 @@
   },
   "compileOnSave": true,
   "include": [
-    "src"
+    "src",
   ]
 }
